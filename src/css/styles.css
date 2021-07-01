@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body h2 {
+    margin: 2rem;
+    text-align: center;
+}
+.figuras_container{
+    display: flex;
+    justify-content: space-around;
+}
+.figuras {
+    background: #ccc;
+    width: 250px;
+    min-width: 250px;
+    height: 365px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+  /* cuadrado */
+.cuadrado {
+    background-color: #22e;
+    width: 100px;
+    height: 100px;
+    margin: 2rem auto;
+}
+
+    /* triangulo*/
+    .triangulo_figura-container{
+        position: relative;
+        margin-top: 4rem;
+    }
+.triangulo {
+    background-color: #2e2;
+    width: 100px;
+    height: 100px;
+    margin: 2rem auto;
+    transform: rotate(45deg);
+    border-bottom-right-radius: 70px;
+}
+.trianguloInvisible {
+    position: absolute;
+    background-color: #ccc;
+    width: 140px;
+    height: 40px;
+    margin: 2rem auto;
+    top: 20px;
+    left: 54px;
+}
+
+/* circulo */
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #e22;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
