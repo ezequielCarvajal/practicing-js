@@ -3,6 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+hr{
+    margin: 2rem;
+} 
+input {
+    width: 50px;
+    border: none;
+    border-bottom: 1px solid #bbb;
+}
+p, input, h3 {
+    margin: 0.4rem;
+}
 .body h2 {
     margin: 2rem;
     text-align: center;
@@ -38,7 +49,7 @@
     height: 100px;
     margin: 2rem auto;
     transform: rotate(45deg);
-    border-bottom-right-radius: 70px;
+    border-bottom-right-radius: 90px;
 }
 .trianguloInvisible {
     position: absolute;
@@ -46,8 +57,8 @@
     width: 140px;
     height: 40px;
     margin: 2rem auto;
-    top: 20px;
-    left: 54px;
+    top: 12px;
+    left: 53px;
 }
 
 /* circulo */
