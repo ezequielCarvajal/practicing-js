@@ -6,12 +6,16 @@
 hr{
     margin: 2rem;
 } 
-input {
+body input {
     width: 50px;
     border: none;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 2px solid #aaa;
+    background-color: #ccc;
+    }
+body input:focus-visible{
+    outline: none;
 }
-p, input, h3 {
+p, input, h3 , label{
     margin: 0.4rem;
 }
 .body h2 {
@@ -55,7 +59,7 @@ p, input, h3 {
     position: absolute;
     background-color: #ccc;
     width: 140px;
-    height: 40px;
+    height: 38px;
     margin: 2rem auto;
     top: 12px;
     left: 53px;
@@ -69,4 +73,8 @@ p, input, h3 {
     background-color: #e22;
     border-radius: 50%;
     margin: 2rem auto;
+}
+
+#ResultP {
+ text-align: center;
 }
