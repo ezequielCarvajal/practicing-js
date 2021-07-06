@@ -18,17 +18,18 @@ function AreaCuad(lado){
 // ------ahora si 
 
 let input = document.getElementById("InputCuadrado");
+const respuestaCuadrado = document.getElementById("respuestaCuadrado");
 
 const calcPerimetroCuadrado = () => {
 const value = input.value;
 const perimetro = perimetroCuad(value);
-alert(perimetro)
+respuestaCuadrado.innerText = `El perimetro del Cuadrado es ${perimetro}`
 }
 
 const calcAreaCuadrado = () => {
 const value = input.value;
 const area = AreaCuad(value);
-alert(area);
+respuestaCuadrado.innerText = `El area del Cuadrado es ${area}`
 }
 
 console.groupEnd()
@@ -47,9 +48,15 @@ console.group("Triangulo");
 // console.log("Los lados del triangulo miden: " + ladoT1 + "cm, " + ladoT2 + "cm, " + baseT +"cm");
 // console.log("El perimetro del Triangulo es: " + perimetroT + "cm");
 // console.log("El Area del Triangulo es: " + AreaT + "cm^2");
+const lado1 = document.getElementById("ladoTr1");
+const lado2 = document.getElementById("ladoTr2");
+const baseTr = document.getElementById("baseTr");
 
-const perimetroT = (lado1, lado2, base) => {
-    return lado1 + lado2 + base;
+const calcPerimetroTriangulo = (l1, l2, b) => {
+    l1 = parseInt(lado1.value);
+    l2 = parseInt(lado2.value);
+     b = parseInt(baseTr.value);
+    return l1 + l2 + b;
 }
 const areaT = (base, altura) =>{
     return (base * altura) /2

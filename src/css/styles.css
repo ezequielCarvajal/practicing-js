@@ -37,8 +37,8 @@ p, input, h3 , label{
   /* cuadrado */
 .cuadrado {
     background-color: #22e;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 2rem auto;
 }
 
@@ -51,9 +51,9 @@ p, input, h3 , label{
     background-color: #2e2;
     width: 100px;
     height: 100px;
-    margin: 2rem auto;
+    margin: -2rem auto;
     transform: rotate(45deg);
-    border-bottom-right-radius: 90px;
+    border-bottom-right-radius: 92px;
 }
 .trianguloInvisible {
     position: absolute;
@@ -62,7 +62,7 @@ p, input, h3 , label{
     height: 38px;
     margin: 2rem auto;
     top: 12px;
-    left: 53px;
+    left: 54px;
 }
 
 /* circulo */
